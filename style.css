@@ -34,8 +34,8 @@ h6 {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding-right: 15px;
-    border: 15px solid black;
+    padding-right: 10px;
+    border: 10px solid black;
     border-radius: 15px;
     background-color: black;
 }
