@@ -5,7 +5,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    background-color: black;ß
+    background-color: black;
     
 }
 
@@ -13,6 +13,7 @@ h1 {
     font-family: "Copperplate", "Courier New", fantasy;
     color: white;
     text-align: center;
+    
     
 }
 
