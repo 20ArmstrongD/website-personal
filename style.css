@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(/images/driftv1.mp4);
+    background-image: url(../images/driftv1.mp4);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -13,6 +13,7 @@ h1 {
     font-family: "Copperplate", "Courier New", fantasy;
     color: white;
     text-align: center;
+    
 }
 
 
