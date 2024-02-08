@@ -42,3 +42,7 @@ h6 {
     border-radius: 13px;
     background-color: black;
 }
+meta {
+    color: white;
+    font-size: 10px;
+}
