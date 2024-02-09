@@ -23,6 +23,7 @@ hr {
 }
 p {
     color: white;
+    position: absolute;
 }
 a{
     font-family: "Lucida Console", "Courier New", monospace;
