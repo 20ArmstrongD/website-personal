@@ -14,7 +14,7 @@ body {
 
 .btn{
     width: 100px;
-    height: 30px;
+    height: 35px;
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
     font-size: 15px;
@@ -25,6 +25,10 @@ body {
     background-color: white;
     border: 10px ;
     border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     
 
@@ -54,11 +58,11 @@ body {
     0% {
         top: -200px;
         opacity: 0;
-        transform: translateY(-50px);
+        
     }
     25%{
         top: -25px;
-        opacity: 0.13;
+        opacity: 0.135;
     }
     50%{
         top: 0px;
@@ -71,7 +75,7 @@ body {
     100% {
         top: 200px;
         opacity: 1;
-        transform: translateX(0);
+        
     }
 }
 
@@ -81,10 +85,13 @@ body {
     transform: translate(-5px, -5px);
     background-color:transparent ;
     color: whitesmoke;
-    border-width: 15px;
-    border-color: blueviolet;
+    border-width: 2px;
+    border-color: lightskyblue;
+    border-style: solid;
     transition: transform 0.3s ease-in-out;
 }
+
+
 
 
 
