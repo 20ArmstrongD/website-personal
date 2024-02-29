@@ -1,135 +1,111 @@
-
-
 body {
-    background-image: url(./images/wave.mp4);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-color: black;
-
-    
+  background-image: url(./images/wave.mp4);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: black;
 }
 
+.btn {
+  width: 100px;
+  height: 35px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 1000;
+  padding: 0.5em 0.5em;
+  left: 50px;
+  color: black;
+  background-color: white;
+  border: 10px;
+  border-radius: 5px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.btn{
-    width: 100px;
-    height: 35px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 1000;
-    padding: .5em .5em;
-    left: 50px;
-    color: black;
-    background-color: white;
-    border: 10px ;
-    border-radius: 5px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    
-
-    /* position: left;
+  /* position: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
-    /* border-color: lightskyblue; */
-    
+  /* border-color: lightskyblue; */
 
-    /*this is the long way to do button transitions 
+  /*this is the long way to do button transitions 
     transition-property: transform;
     transition-duration:0.2 ;
     transition-timing-function:ease ;
     transition-delay: 0s ; */
 
-    /*faster way of doing this*/
-    /* transition: all 0.3s ease-in-out 0s; */
+  /*faster way of doing this*/
+  /* transition: all 0.3s ease-in-out 0s; */
 
-    animation: fallIn 1.0s ease-in 0.25s 1 normal both ;
-    
+  animation: fallIn 1s ease-in 0.25s 1 normal both;
 }
-
-
 
 @keyframes fallIn {
-    0% {
-        top: -200px;
-        opacity: 0;
-        
-    }
-    25%{
-        top: -25px;
-        opacity: 0.135;
-    }
-    50%{
-        top: 0px;
-        opacity: 0.25;
-    }
-    75%{
-        top: 25px;
-        opacity: 0.5;
-    }
-    100% {
-        top: 200px;
-        opacity: 1;
-        
-    }
+  0% {
+    top: -200px;
+    opacity: 0;
+  }
+  25% {
+    top: -25px;
+    opacity: 0.135;
+  }
+  50% {
+    top: 0px;
+    opacity: 0.25;
+  }
+  75% {
+    top: 25px;
+    opacity: 0.5;
+  }
+  100% {
+    top: 200px;
+    opacity: 1;
+  }
 }
 
-
-
-.btn:hover{
-    transform: translate(-5px, -5px);
-    background-color:transparent ;
-    color: whitesmoke;
-    border-width: 2px;
-    border-color: lightskyblue;
-    border-style: solid;
-    transition: transform 0.3s ease-in-out;
+.btn:hover {
+  transform: translate(-5px, -5px);
+  background-color: transparent;
+  color: whitesmoke;
+  border-width: 2px;
+  border-color: lightskyblue;
+  border-style: solid;
+  transition: transform 0.3s ease-in-out;
 }
-
-
-
-
 
 h1 {
-    font-family: "Copperplate", "Courier New", fantasy;
-    color: white;
-    text-align: center;
-    
-    
+  font-family: "Copperplate", "Courier New", fantasy;
+  color: white;
+  text-align: center;
 }
-
 
 hr {
-    color: white;
+  color: white;
 }
 p {
-    color: white;
-    position: absolute;
+  color: white;
+  position: absolute;
 }
-a{
-    font-family: "Lucida Console", "Courier New", monospace;
-    color: white;
-    font-weight: bold;
-    padding-left: 10px;
-    
+a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
 }
 h6 {
-    color: white;
-    font-size: 15px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-right: 10px;
-    border: 10px solid black;
-    border-radius: 13px;
-    background-color: black;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 10px;
+  border: 10px solid black;
+  border-radius: 13px;
+  background-color: black;
 }
 meta {
-    color: white;
-    font-size: 10px;
+  color: white;
+  font-size: 10px;
 }
