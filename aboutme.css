@@ -1,0 +1,43 @@
+body {
+    background-image: url(./images/wave.mp4);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+p::first-line{
+    text-indent: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+
+   
+  }
+  
+  img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+
+h1 {
+    color: white;
+    text-align:  center;
+    font-size: 35px;
+    font-family: "Copperplate", "Courier New", fantasy;
+    
+}

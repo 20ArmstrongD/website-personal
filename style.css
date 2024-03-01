@@ -66,7 +66,7 @@ body {
 }
 
 .btn:hover {
-  transform: translate(-5px, -5px);
+  transform: translate(3px, -3px);
   background-color: transparent;
   color: whitesmoke;
   border-width: 2px;
@@ -108,4 +108,22 @@ h6 {
 meta {
   color: white;
   font-size: 10px;
+}
+
+p::first-line{
+  text-indent: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+ 
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin: 10 auto;
+  padding-left: 10px;
 }
