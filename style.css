@@ -23,22 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* position: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
-  /* border-color: lightskyblue; */
-
-  /*this is the long way to do button transitions 
-    transition-property: transform;
-    transition-duration:0.2 ;
-    transition-timing-function:ease ;
-    transition-delay: 0s ; */
-
-  /*faster way of doing this*/
-  /* transition: all 0.3s ease-in-out 0s; */
-
+  margin-left: 10px;
   animation: fallIn 1s ease-in 0.25s 1 normal both;
 }
 
