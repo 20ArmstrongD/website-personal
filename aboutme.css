@@ -1,4 +1,5 @@
-body {
+@media screen and (max-width: 768px) {
+  body {
     background-image: url(./images/wave.mp4);
     background-size: cover;
     background-position: center center;
@@ -9,35 +10,34 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-attachment: scroll;
   }
+}
 
-p::first-line{
-    text-indent: 20px;
-  }
-  
-  p {
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    color: white;
-    background-color: black;
-    font-size: 20px;
-    padding: 10px;
+p::first-line {
+  text-indent: 20px;
+}
 
-   
-  }
-  
-  img {
-    max-width: 30%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding-left: 10px;
-  }
+p {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-left: 10px;
+}
 
 h1 {
-    color: white;
-    text-align:  center;
-    font-size: 35px;
-    font-family: "Copperplate", "Courier New", fantasy;
-    
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Copperplate", "Courier New", fantasy;
 }
