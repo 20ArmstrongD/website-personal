@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+
   body {
     background-image: url(./images/wave.mp4);
     background-size: cover;
@@ -12,7 +12,7 @@
     box-sizing: border-box;
     background-attachment: scroll;
   }
-}
+
 
 p::first-line {
   text-indent: 20px;
